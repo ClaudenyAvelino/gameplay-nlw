@@ -8,3 +8,5 @@ SignIn
 ## Criar arquivo
     index.tsx
     styles.ts
+
+## Criado estilos
