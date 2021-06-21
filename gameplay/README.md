@@ -1,6 +1,5 @@
 ## Configurações do ambiente
 
-#### Preparando o ambiente
 #### Teremos algumas etapas principais na seção "Instalação":
 # Node e NPM
 
