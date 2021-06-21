@@ -1,21 +1,13 @@
-# Configurações do ambiente
+## Configurações do ambiente
 
-## Preparando o ambiente
-# Teremos três etapas principais na seção "Instalação":
-# 
+#### Preparando o ambiente
+#### Teremos três etapas principais na seção "Instalação":
 - Node + NPM;
 - Yarn;
 - Expo;
 - Visual Studio Code e configurações.
-
-
-## Criar pasta
-src
-screens
-SignIn
-
-## Criar arquivo
+##### Criar arquivo
    * index.tsx
    * styles.ts
 
-## Criado estilos
+#### Criado estilos
