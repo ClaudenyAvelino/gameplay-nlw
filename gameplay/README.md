@@ -1,10 +1,10 @@
-# Projeto criado
+## Projeto criado
 
-* Criar pasta
+## Criar pasta
 src
 screens
 SignIn
 
-* Criar arquivo
+## Criar arquivo
     index.tsx
     styles.ts
