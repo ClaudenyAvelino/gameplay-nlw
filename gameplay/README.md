@@ -318,6 +318,8 @@ Por fim, caso queira substituir completamente a sua configuração pela abaixo, 
   "typescript.suggest.autoImports": true,
 ```
 ```
+## Executar o projeto
+    -expo start
 
 ##### Criar arquivo
    * index.tsx
