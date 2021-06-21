@@ -4,3 +4,7 @@
 src
 screens
 SignIn
+
+* Criar arquivo
+    index.tsx
+    styles.ts
