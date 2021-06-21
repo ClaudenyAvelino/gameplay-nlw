@@ -209,7 +209,7 @@ Se na instalação ou utilização do Expo você enfrentou algum erro não previ
 
 Para instalar o editor de texto Visual Studio Code em qualquer um dos 3 sistemas operacionais, basta [acessar o site](https://code.visualstudio.com/), baixar e rodar o executável.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9dddb31-2111-4767-9e21-2c3f5f5fc85a/vscode.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9dddb31-2111-4767-9e21-2c3f5f5fc85a/vscode.gif)
+![https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/imginst/vscode.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9dddb31-2111-4767-9e21-2c3f5f5fc85a/vscode.gif)
 
 Com a instalação finalizada, abra o programa. Você deve se deparar com uma interface parecida com essa:
 
