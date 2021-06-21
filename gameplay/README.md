@@ -1,13 +1,90 @@
 ## Configurações do ambiente
 
 #### Preparando o ambiente
-#### Teremos três etapas principais na seção "Instalação":
-- Node + NPM;
-- Yarn;
-- Expo;
-- Visual Studio Code e configurações.
+#### Teremos algumas etapas principais na seção "Instalação":
+# Node e NPM
+
+O primeiro passo é instalar o Node.js, que vem acompanhado do NPM.
+
+## Linux (Ubuntu/Debian)
+
+Para o Linux iremos utilizar o **[NodeSource](https://github.com/nodesource/distributions/blob/master/README.md)**, basta seguir esses passos:
+
+- Verifique se você possui o **[curl](https://curl.haxx.se/)** instalado rodando no terminal o comando:
+
+```bash
+curl --version
+```
+
+Caso ele retorne a versão, pode pular para o próximo passo. Caso não, basta rodar o comando:
+
+```bash
+sudo apt install curl
+```
+
+- Com o **curl** instalado, execute o comando de instalação da versão LTS mais recente disponível:
+    - Ubuntu
+
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    ```
+
+    - Debian (como root)
+
+    ```json
+    curl -sL https://deb.nodesource.com/setup_lts.x | bash -
+    apt-get install -y nodejs
+    ```
+
+    Feche o terminal e abra novamente para as alterações fazerem efeito.
+
+- Por fim, execute os seguintes comandos no terminal:
+
+```bash
+node -v
+npm -v
+```
+
+Caso retorne as versões do Node e npm, sua instalação foi um sucesso.
+
+## macOS
+
+Para o macOS iremos utilizar o gerenciador de pacotes [**Homebrew**](https://brew.sh/index_pt-br), que é instalado usando Ruby, que já vem instalado por padrão, execute o seguinte comando no terminal:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+Para verificar se ele foi instalado com sucesso execute:
+
+```bash
+brew --version
+```
+
+Com o **Homebrew** instalado, basta executar o comando para instalar a versão 14.x (LTS) mais recente:
+
+```bash
+brew install node@14
+```
+
+Como instalamos uma versão do Node diferente da default do Homebrew (o padrão é a current, nesse caso v16), é preciso adicionar manualmente o `path` do Node na nossa variável ambiente. Adicione a seguinte linha ao final do arquivo `~/.bashrc` (ou do arquivo `~/.zshrc` caso você utilize o shell ZSH):
+
+```bash
+export PATH="/usr/local/opt/node@14/bin:$PATH"
+```
+
+Por fim, reinicie o terminal e execute os seguintes comandos:
+
+```bash
+node -v
+npm -v
+```
+
+Caso retorne as versões do Node e Npm, sua instalação foi um sucesso.
 
 ## Windows
+
 Para o Windows utilizaremos o gerenciador de pacotes **[Chocolatey](https://chocolatey.org/)**, porém antes dos passos de instalação vamos falar brevemente sobre qual shell você deve usar.
 
 - **CMD**: também conhecido como **Command Prompt**, ele é um dos shells mais antigos da atualidade (foi construído para ser compatível com o **MS-DOS**) e, apesar da sua fama, hoje em dia tem sido cada vez menos utilizado.
@@ -240,6 +317,7 @@ Por fim, caso queira substituir completamente a sua configuração pela abaixo, 
 
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
+```
 ```
 
 ##### Criar arquivo
