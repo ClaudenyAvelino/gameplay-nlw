@@ -127,7 +127,11 @@ Rocketseat/expo-common-issues
 Visual Studio Code
 Para instalar o editor de texto Visual Studio Code em qualquer um dos 3 sistemas operacionais, basta acessar o site, baixar e rodar o executável.
 
+<<<<<<< HEAD
 https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/imginst/vscode.gif
+=======
+![https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/imginst/vscode.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9dddb31-2111-4767-9e21-2c3f5f5fc85a/vscode.gif)
+>>>>>>> dd21fbf37230e0f0f87d43901e1dbe2333989667
 
 Com a instalação finalizada, abra o programa. Você deve se deparar com uma interface parecida com essa:
 
