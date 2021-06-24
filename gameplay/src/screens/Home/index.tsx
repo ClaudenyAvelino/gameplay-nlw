@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { View, FlatList } from 'react-native';
 
-// import { CategorySelect } from '../../components/CategorySelect';
-// import { Appointment } from '../../components/Appointment';
-// import { ListDivider } from '../../components/ListDivider';
-// import { ListHeader } from '../../components/ListHeader';
-// import { ButtonAdd } from '../../components/ButtonAdd';
+import { CategorySelect } from '../../components/CategorySelect';
+import { Appointment } from '../../components/Appointment';
+import { ListDivider } from '../../components/ListDivider';
+import { ListHeader } from '../../components/ListHeader';
+import { ButtonAdd } from '../../components/ButtonAdd';
 import { Profile } from '../../components/Profile';
 
 import { styles } from './styles';
