@@ -236,5 +236,7 @@ Por fim, caso queira substituir completamente a sua configuração pela abaixo, 
 
 #### Criado estilos
 
-
-https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/assets/adaptive-icon.png?raw=true
+<p>  
+<img src="https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/assets/adaptive-icon.png" height="35px" />   
+ &nbsp;
+?raw=true
