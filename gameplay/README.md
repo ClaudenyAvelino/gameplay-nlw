@@ -238,5 +238,4 @@ Por fim, caso queira substituir completamente a sua configuração pela abaixo, 
 
 <p>  
 <img src="https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/assets/adaptive-icon.png" height="400px" />   
- &nbsp;
-?raw=true
+ </p>
