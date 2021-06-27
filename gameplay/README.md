@@ -235,3 +235,7 @@ Por fim, caso queira substituir completamente a sua configuração pela abaixo, 
    * styles.ts
 
 #### Criado estilos
+
+<p>  
+<img src="https://github.com/ClaudenyAvelino/gameplay-nlw/blob/main/gameplay/assets/adaptive-icon.png" height="400px" />   
+ </p>
